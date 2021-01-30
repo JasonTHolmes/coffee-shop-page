@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/cafe.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+nav {
+    float: right;
+}
+
+li {
+    color: #dddddd;
+    list-style: none;
+    float: left;
+    margin: 10px;
+}
+
+
+.about-us {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about-us-paragraph p{
+    padding: 0 60px 0 60px;
+}
+h1{
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: #dddddd;
+    font-family: 'Bebas Neue';
+}
+
+h2 {
+    border: solid 1px green;
+    text-align: center;
+}
+
+.about-us-part {
+    border: solid 1px green;    
+}
+h3 {
+    border: solid 1px green;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.sm-paragraph {
+    border: solid 1px green;
+    width: 300px;
+}
+
+
+
+footer{
+    text-align: center;
+}
+
