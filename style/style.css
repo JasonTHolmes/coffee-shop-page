@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+/* ---------- */
+/* HEADER */
+/* ---------- */
 
 header {
     margin: 0;
@@ -25,15 +28,6 @@ li {
     margin: 10px;
 }
 
-
-.about-us {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.about-us-paragraph p{
-    padding: 0 60px 0 60px;
-}
 h1{
     font-size: 80px;
     letter-spacing: 5px;
@@ -41,31 +35,82 @@ h1{
     font-family: 'Bebas Neue';
 }
 
-h2 {
-    border: solid 1px green;
-    text-align: center;
+/* ---------- */
+/* ABOUT US */
+/* ---------- */
+
+.about-us {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
-.about-us-part {
-    border: solid 1px green;    
-}
-h3 {
-    border: solid 1px green;
+.lg-paragraph-intro{
+    padding: 10px;
     text-align: center;
+    text-transform: uppercase;
 }
 
-p {
+.lg-paragraph-container{
+    margin: auto;
+    padding: 15px;
+    width: 0 10px 0 10px;
+
+}
+
+.lg-paragraph{
+    text-align: center;
+    padding: 35px;
+    width: 0 10px 0 10px;
+
+}
+
+.sm-paragraph-container {
+    padding: 0;
+    margin: 10px;
+
+}
+.sm-paragraph-intro {
+    text-transform: uppercase;
     text-align: center;
 }
 
 .sm-paragraph {
-    border: solid 1px green;
-    width: 300px;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
 }
 
+/* ---------- */
+/* ABOUT US IMAGES */
+/* ---------- */
 
+.list-container {
+       border: solid 1px rgb(255, 0, 0);
+}
+
+ul {
+    border: solid 1px rgb(8, 253, 0);
+}
+
+li {
+    border: solid 1px red;
+}
+.about-us-image {
+    padding: 0;
+    margin: auto;
+    height:350px;
+    width: 350px;
+}
+
+/* ---------- */
+/* FOOTER */
+/* ---------- */
 
 footer{
     text-align: center;
+    border: solid 1px red;
 }
 
