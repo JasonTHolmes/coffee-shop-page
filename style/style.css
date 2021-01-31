@@ -21,6 +21,11 @@ nav {
     float: right;
 }
 
+.nav-bar-link {
+    color: #dddddd;
+    text-decoration: none;
+}
+
 li {
     color: #dddddd;
     list-style: none;
@@ -29,9 +34,11 @@ li {
 }
 
 h1{
+    float: left;
+    padding: 10px;
     font-size: 80px;
     letter-spacing: 5px;
-    color: #dddddd;
+    color: #00f13c;
     font-family: 'Bebas Neue';
 }
 
@@ -88,20 +95,21 @@ h1{
 /* ---------- */
 
 .list-container {
-       border: solid 1px rgb(255, 0, 0);
+       /* border: solid 1px rgb(255, 0, 0); */
 }
 
-ul {
-    border: solid 1px rgb(8, 253, 0);
+.about-us-pics {
+    /* border: solid 1px rgb(8, 253, 0); */
 }
 
 li {
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
+
 .about-us-image {
     padding: 0;
     margin: auto;
-    height:350px;
+    height: 350px;
     width: 350px;
 }
 
@@ -111,6 +119,6 @@ li {
 
 footer{
     text-align: center;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
