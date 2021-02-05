@@ -89,11 +89,13 @@ li {
 }
 
 .sm-paragraph-intro {
+    color: #dddddd;
     text-transform: uppercase;
     text-align: center;
 }
 
 .sm-paragraph {
+    color: #dddddd;
     margin: 5px;
     padding: 20px;
     text-align: center;
@@ -103,17 +105,14 @@ li {
 /* ABOUT US IMAGES */
 /* ---------- */
 
-.list-container {
-    width: 100%;
-    height: 90px;
-    text-align: center;
-    margin: auto;
+#family-container-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/family.jpg);
 }
-
-.about-us-image {
-    padding: 15px;
-    height: 280px;
-    width: 280px;
+#family-container-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/community.jpg);
+}
+#family-container-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/farmer.jpg);
 }
 
 /* ---------- */
